@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use std::collections::HashMap;
 use exchange::binance::Binance;
 
@@ -8,5 +10,5 @@ fn main() {
     let binance = Binance {
         markets: HashMap::from([])
     };
-    println!("{:?}", binance);
+    binance.stream_prices()
 }

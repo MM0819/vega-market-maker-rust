@@ -3,6 +3,10 @@ name = "vega-market-maker-rust"
 version = "0.0.1"
 authors = ["MM0819"]
 description = "Vega Protocol market maker"
+edition = "2021"
+[dependencies]
+tungstenite = {version = "0.18.0", features = ["native-tls"]}
+url = "2.2.2"
 [[bin]]
 name = "main"
 path = "main.rs"

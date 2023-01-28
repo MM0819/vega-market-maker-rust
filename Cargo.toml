@@ -1,0 +1,8 @@
+[package]
+name = "vega-market-maker-rust"
+version = "0.0.1"
+authors = ["MM0819"]
+description = "Vega Protocol market maker"
+[[bin]]
+name = "main"
+path = "main.rs"
